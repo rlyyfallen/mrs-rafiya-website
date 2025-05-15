@@ -14,16 +14,16 @@
         Your browser does not support the audio element.
     </audio>
 
-    <header>
-        <div class="header-content">
-            <img src="rafiya-photo.jpg" alt="Dr. Rafiya" class="profile-photo">
-            <div class="title-section">
-                <h1>Dr. Rafiya</h1>
-                <p>PhD in Commerce | Assistant Professor | Researcher</p>
-                <p>Email: <a href="mailto:rafiya@crescent.education">rafiya@crescent.education</a></p>
-            </div>
+<header>
+    <div class="header-content">
+        <img src="rafiya-photo.jpg" alt="Dr. Rafiya" class="profile-photo">
+        <div class="title-section">
+            <h1>Dr. Rafiya</h1>
+            <p>PhD in Commerce | Assistant Professor | Researcher</p>
+            <p>Email: <a href="mailto:rafiya@crescent.education" class="email-link">rafiya@crescent.education</a></p>
         </div>
-    </header>
+    </div>
+</header>
 
     <nav>
         <ul>
@@ -52,62 +52,73 @@
         </ul>
     </section>
 
-    <!-- Research Section -->
-    <section id="research" class="section">
-        <h2>Research & Publications</h2>
-        <p>Dr. Rafiya has published extensively in international journals on topics related to Human Capital Management and Organizational Performance. Some of her prominent works include:</p>
-        <ul>
-            <li>"A Relationship Between Motivation and Human Capital Management" – IJPAM, 2018</li>
-            <li>"Impact of Human Capital Management on Organizational Performance" – IJITEE, 2019</li>
-            <li>"Human Resources Development Practices in Indian Banks" – JETIR, 2019</li>
-        </ul>
-    </section>
 
-    <!-- Courses Section -->
-    <section id="courses" class="section">
-        <h2>Lecture Courses</h2>
-        <ul>
-            <li>Practical Auditing</li>
-            <li>Indirect Taxes</li>
-            <li>E-Commerce</li>
-            <li>Company Law and Practice</li>
-        </ul>
-    </section>
+<!-- Research Section -->
+<section id="research" class="section">
+    <h2>Research & Publications</h2>
+    <h3>ORCID</h3>
+    <p>Dr. Rafiya Banu Syed's ORCID profile provides a comprehensive overview of her research contributions and publications. ORCID is a unique identifier for researchers, ensuring proper attribution and recognition of their work.</p>
+    <p>Visit her ORCID profile: <a href="https://orcid.org/0000-0002-4143-1742" target="_blank">Dr. Rafiya Banu Syed's ORCID</a></p>
+    
+    <h3>ResearchGate</h3>
+    <p>Dr. Rafiya Banu Syed's ResearchGate profile provides access to her research contributions and publications. ResearchGate is a professional network for researchers to share and discover scientific knowledge.</p>
+    <p>Visit her ResearchGate profile: <a href="https://www.researchgate.net/profile/Rafiya-Syed" target="_blank">Dr. Rafiya Banu Syed's ResearchGate</a></p>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <h2>Contact</h2>
-        <p>If you'd like to get in touch with Dr. Rafiya, feel free to email at: <a href="mailto:rafiya@crescent.education"> rafiya@crescent.education</a>
+<!-- Courses Section -->
+<section id="courses" class="section">
+    <h2>Lecture Courses</h2>
+    <ul>
+        <li><strong>Practical Auditing</strong> - This course covers the principles and practices of auditing, focusing on real-world applications and techniques used by auditors.</li>
+        <li><strong>Indirect Taxes</strong> - This course provides an overview of indirect taxation, including VAT, GST, and other forms of taxes that are levied on goods and services.</li>
+        <li><strong>E-Commerce</strong> - This course explores the fundamentals of electronic commerce, including online business models, digital marketing, and e-commerce technologies.</li>
+        <li><strong>Company Law and Practice</strong> - This course examines the legal framework governing companies, including corporate governance, compliance, and regulatory practices.</li>
+    </ul>
+</section>
+<!-- YouTube Channel Section -->
+<section id="youtube" class="section">
+    <h2>YouTube Channel</h2>
+    <p>Follow Dr. Rafiya Banu Syed on her YouTube channel for insightful videos on commerce, finance, and research. She shares her knowledge and expertise through a variety of content including:</p>
+    <ul>
+        <li>Lectures on commerce and finance topics</li>
+        <li>Research methodologies and findings</li>
+        <li>Interviews with industry experts</li>
+        <li>Q&A sessions and live webinars</li>
+    </ul>
+    <p>Dr. Rafiya's channel is a valuable resource for students, professionals, and anyone interested in the fields of commerce and finance. Her videos are designed to provide practical insights and academic knowledge that can help viewers excel in their careers.</p>
+    <p>Subscribe to her channel: <a href="https://www.youtube.com/@dr.rafiyasyed8278" target="_blank">Dr. Rafiya Banu Syed's YouTube Channel</a></p>
+</section>
 
-</p>
-    </section>
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch with Dr. Rafiya, feel free to email at: <a href="mailto:rafiya@crescent.education" class="email-link">rafiya@crescent.education</a></p>
+    <br> <!-- Added a small gap -->
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Dr. Rafiya. All rights reserved.</p>
-    </footer>
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Dr. Rafiya. All rights reserved.</p>
+</footer>
 
-    <!-- Custom Sound Button for Background Music -->
-    <button id="sound-btn" class="sound-button">🔊</button>
+<!-- Custom Sound Button for Background Music -->
+<button id="sound-btn" class="sound-button">🔊</button>
 
-    <!-- JavaScript -->
-    <script>
-        const audio = document.getElementById('background-music');
-        audio.volume = 0.3;
-        audio.play(); // Start playing the music
+<!-- JavaScript -->
+<script>
+    const audio = document.getElementById('background-music');
+    audio.volume = 0.3;
+    audio.play(); // Start playing the music
 
-        const soundButton = document.getElementById('sound-btn');
+    const soundButton = document.getElementById('sound-btn');
 
-        soundButton.addEventListener('click', () => {
-            if (audio.paused) {
-                audio.play();
-                soundButton.textContent = '🔊'; // Unmute icon
-            } else {
-                audio.pause();
-                soundButton.textContent = '🔇'; // Mute icon
-            }
-        });
-    </script>
-
-</body>
-</html>
+    soundButton.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            soundButton.textContent = '🔊'; // Unmute icon
+        } else {
+            audio.pause();
+            soundButton.textContent = '🔇'; // Mute icon
+        }
+    });
+</script>
