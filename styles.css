@@ -181,4 +181,79 @@ html {
     nav ul li {
         margin: 5px 10px;
     }
+}/* styles.css */
+
+/* ... existing styles ... */
+/* styles.css */
+
+/* ... existing styles ... */
+
+.email-link {
+    display: inline-block; /* Make it a block element */
+    background-color: #ff6b6b; /* Same color as the contact tab */
+    color: white; /* White font color */
+    padding: 10px 15px; /* Padding for the box */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.4s ease-in-out; /* Smooth transition for hover effect */
 }
+
+.email-link:hover {
+    background-color: #ff8b8b; /* Darker shade on hover */
+}/* styles.css */
+
+/* ... existing styles ... */
+
+.contact-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding for the section */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Margin to separate from other sections */
+}
+
+.contact-section h2 {
+    color: #333; /* Darker color for the heading */
+}
+
+.contact-section p {
+    color: #555; /* Darker color for the paragraph */
+}
+/* styles.css */
+
+/* ... existing styles ... */
+
+.contact-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding for the section */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /*/* styles.css */
+
+/* ... existing styles ... */
+
+.contact-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding for the section */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Margin to separate from other sections */
+    margin-bottom: 20px; /* Reduced space at the bottom */
+}
+
+.contact-section h2 {
+    color: #333; /* Darker color for the heading */
+}
+
+.contact-section p {
+    color: #555; /* Darker color for the paragraph */
+}
+ Margin to separate from other sections */
+    margin-bottom: 40px; /* Added more space at the bottom */
+}
+
+.contact-section h2 {
+    color: #333; /* Darker color for the heading */
+}
+
+.contact-section p {
+    color: #555; /* Darker color for the paragraph */
+}
+
